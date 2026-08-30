@@ -20,14 +20,14 @@ footer{max-width:44rem;margin:1.2rem auto 0;font-size:.85rem;color:#8a8377;text-
 <body>
 <main>
 <h1>Privacy Policy — Fruity Catch: Farm Rush</h1>
-<p><strong>Last updated:</strong> 26 August 2026</p>
+<p><strong>Last updated:</strong> 30 August 2026</p>
 <p><strong>App:</strong> Fruity Catch: Farm Rush (<code>com.innovix.fruitycatchfarm</code>)</p>
 <p><strong>Developer:</strong> Innovix</p>
 <p><strong>Contact:</strong> innovixdigitalsolutions&#64;gmail&#46;com</p>
 <hr>
 
 <h2>Summary</h2>
-<p>Fruity Catch: Farm Rush does not ask for your name, your email or any account. The game itself works completely offline. The only data that leaves your device is the advertising identifier used by Google AdMob to show ads.</p>
+<p>Fruity Catch: Farm Rush is a game <strong>made for children</strong>. It does not ask for your name, your email or any account. The game itself works completely offline. It does <strong>not</strong> use the advertising identifier, and the ads it shows are never personalised.</p>
 
 <h2>What stays on your device only</h2>
 <p>The following is stored locally with Android&#x27;s standard app preferences and is <strong>never</strong> sent anywhere. Uninstalling the app deletes all of it.</p>
@@ -41,31 +41,38 @@ footer{max-width:44rem;margin:1.2rem auto 0;font-size:.85rem;color:#8a8377;text-
 </ul>
 
 <h2>What is collected and shared</h2>
-<table>
-<tr><th>Data type</th><td>Device or other IDs — <strong>Advertising ID</strong></td></tr>
-<tr><th>Collected</th><td>Yes</td></tr>
-<tr><th>Shared</th><td>Yes, with Google and its advertising partners</td></tr>
-<tr><th>Purpose</th><td>Advertising</td></tr>
-<tr><th>Required</th><td>Yes — the app is free and supported by ads</td></tr>
-<tr><th>Transmission</th><td>Encrypted (HTTPS)</td></tr>
-</table>
-<p>Ads are served by <strong>Google AdMob</strong>. AdMob&#x27;s own handling of this data is described in <a href="https://policies.google.com/privacy">Google&#x27;s Privacy Policy</a> and the <a href="https://support.google.com/admob/answer/9012903">AdMob partner list</a>.</p>
-<p>You can reset or delete this identifier at any time: <strong>Settings → Google → Ads → Delete advertising ID</strong>.</p>
+<p>Ads are served by <strong>Google AdMob</strong>, a Google Play Families self-certified ads SDK. To choose an advertisement it receives the following, all encrypted (HTTPS).</p>
+<table><thead><tr><th>Data</th><th>Why</th></tr></thead><tbody>
+<tr><td>IP address, from which an <strong>approximate</strong> location such as the country is estimated</td><td>to choose an ad that is valid in your region</td></tr>
+<tr><td><strong>App interactions</strong> &mdash; that an ad slot was requested, shown or closed</td><td>to count and place ads</td></tr>
+<tr><td><strong>Diagnostics and crash information</strong> from the ads SDK</td><td>to keep the SDK working</td></tr>
+</tbody></table>
+<p>AdMob&#x27;s own handling of this data is described in <a href="https://policies.google.com/privacy" rel="noopener">Google&#x27;s Privacy Policy</a> and the <a href="https://support.google.com/admob/answer/9012903" rel="noopener">AdMob partner list</a>.</p>
+<p><strong>The Android Advertising ID (AAID) is not collected and not shared.</strong> The app does not hold the advertising ID permission, and every ad request is tagged for child-directed treatment.</p>
 
 <h2>What is never collected</h2>
 <p>Name, email address, phone number, contacts, photos, files, microphone, camera, precise location, or any account information. The app has no login, no chat, no user-generated content and no in-app purchases.</p>
 <p>Baskets are unlocked by how much fruit you have caught. Nothing in the game is sold and there is no in-game currency to buy.</p>
 
-<h2>Age</h2>
-<p>This app is <strong>not directed to children</strong>. Its target audience is 13 and older. We do not knowingly collect information from children under 13.</p>
+<h2>Children</h2>
+<p>This app is <strong>made for children</strong> and follows the <a href="https://support.google.com/googleplay/android-developer/answer/9893335" rel="noopener">Google Play Families Policy</a>.</p>
+<ul>
+<li><strong>No advertising identifier.</strong> The app does not request the Android advertising ID permission and does not transmit the AAID.</li>
+<li><strong>No personalised ads.</strong> Ads are never based on browsing behaviour or interests, and are never used for remarketing.</li>
+<li><strong>Ad content is rated G</strong>, so it stays suitable for children.</li>
+<li><strong>No other persistent identifiers</strong> &mdash; no SIM serial, build serial, BSSID, MAC, SSID, IMEI or IMSI.</li>
+<li><strong>No location permission</strong> and no precise location.</li>
+<li><strong>No purchases, no chat, no links out of the game.</strong></li>
+</ul>
+<p>We do not knowingly collect personal information from anyone, children included. If you believe a child has given us personal information, write to the address below and we will delete it.</p>
 
 <h2>Permissions the app declares</h2>
 <table>
 <tr><th>Permission</th><th>Why</th></tr>
 <tr><td><code>INTERNET</code></td><td>to load ads</td></tr>
-<tr><td><code>AD_ID</code></td><td>advertising identifier, used by AdMob</td></tr>
 <tr><td><code>FOREGROUND_SERVICE</code>, <code>WAKE_LOCK</code></td><td><strong>not used by our code</strong> — they arrive with the Google Mobile Ads SDK&#x27;s <code>androidx.work</code> dependency</td></tr>
 </table>
+<p>The Google advertising ID permission (<code>com.google.android.gms.permission.AD_ID</code>) is <strong>explicitly removed</strong> from this app, so the advertising identifier is not available to it.</p>
 
 <h2>Changes</h2>
 <p>If this policy changes, the date at the top is updated and the new version is published at the same address.</p>
